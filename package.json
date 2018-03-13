@@ -6,6 +6,7 @@
   "scripts": {
     "commit": "git-cz",
     "test": "exit 0",
+    "lint": "eslint --fix --max-warnings 0 scripts",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
   },
@@ -25,11 +26,9 @@
   "homepage": "https://github.com/karelhala/todo#readme",
   "dependencies": {
     "chalk": "^2.3.2",
-    "clear": "^0.1.0",
     "clui": "^0.3.6",
-    "configstore": "^3.1.1",
     "inquirer": "^5.1.0",
-    "touch": "^3.1.0"
+    "minimist": "^1.2.0"
   },
   "devDependencies": {
     "commitizen": "^2.9.6",
