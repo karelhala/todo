@@ -1,0 +1,19 @@
+sudo: false
+language: node_js
+cache:
+  directories:
+    - node_modules
+notifications:
+  email: false
+node_js:
+- '8'
+before_script:
+- npm prune
+before_install: scripts/travis/before.sh
+after_success: scripts/travis/after.sh
+script: npm test
+git:
+  depth: 1
+branches:
+  except:
+  - "/^v\\d+\\.\\d+\\.\\d+$/"
