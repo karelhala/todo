@@ -1,0 +1,23 @@
+{
+  "name": "@khala/todo",
+  "version": "0.0.1",
+  "description": "Simple TODO terminal app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karelhala/todo.git"
+  },
+  "keywords": [
+    "todo",
+    "terminal"
+  ],
+  "author": "Karel Hala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karelhala/todo/issues"
+  },
+  "homepage": "https://github.com/karelhala/todo#readme"
+}
