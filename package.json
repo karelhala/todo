@@ -42,5 +42,8 @@
       "path": "cz-conventional-changelog"
     },
     "access": "public"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
