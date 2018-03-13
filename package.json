@@ -42,6 +42,10 @@
     },
     "access": "public"
   },
+  "engines": {
+    "node": ">6",
+    "npm": ">4"
+  },
   "publishConfig": {
     "access": "public"
   }
