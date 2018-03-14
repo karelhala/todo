@@ -13,10 +13,11 @@ $> todo-cli
 ```
 
 ## Example of new todo
-![TODO example](static/todo.gif?raw=true "TODO example")
+![TODO example](static/todo-example.gif?raw=true "TODO example")
 
 ## Running todo-cli with options
 This tool recognizes 3 options
+
 | Option | longer | Description |
 |---|---|---|
 | `-a` | `--add` | Add new single TODO item |
