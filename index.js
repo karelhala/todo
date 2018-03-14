@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const chalk = require('chalk');
 const { markDone, newTodo } = require('./lib/inquirer');
 const { changeToDoFile } = require('./lib/files');
@@ -13,6 +15,9 @@ const isList = argv.l || argv.list;
 if (isAdd && !isList) {
   newTodo()
     .then(() => isMark && markDone())
+    .then(() => printTasks());
+} else if (!isAdd && isMark && !isList) {
+  markDone()
     .then(() => printTasks());
 } else if (!isList) {
   newTodo()
