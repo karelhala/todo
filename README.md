@@ -2,6 +2,11 @@
 Sometimes you need to write simple todo from command line. This tool will allow you to do this in couple of steps.
 
 ## Installing the command line tool
+If you have NPM version 5+ you don't need to install it, and you can just run
+```bash
+$> npx todo-cli
+```
+
 Just install this package as global dependency
 ```bash
 $> npm install -g @khala/todo
