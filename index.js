@@ -2,7 +2,7 @@
 
 const chalk = require('chalk');
 const { markDone, newTodo } = require('./lib/inquirer');
-const { version } = './package.json';
+const { version } = require('./package.json');
 const { changeToDoFile } = require('./lib/files');
 const { printUsage } = require('./lib/usage');
 const { printTasks, IS_MARK, IS_VERSION, IS_LIST, IS_HELP, IS_ADD, IS_FILE } = require('./lib/common');
