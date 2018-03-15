@@ -21,7 +21,7 @@ $> todo-cli
 ![TODO example](static/todo-example.gif?raw=true "TODO example")
 
 ## Running todo-cli with options
-This tool recognizes 4 options
+This tool recognizes 6 options
 
 | Option | longer | Description |
 |---|---|---|
@@ -29,6 +29,8 @@ This tool recognizes 4 options
 | `-l` | `--mark` | Mark some items as done |
 | `-m` | `--list` | List all tasks |
 | `-f` | `--file` | Path where to store todo file |
+| `-h` | `--help` | Prints help for this tool |
+| `-v` | `--version` | Prints version of this tool |
 
 ### Path for todo file
 If you want to store todo file somewhere else than `/${HOME}/.todos` you can use this option.
