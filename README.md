@@ -26,8 +26,8 @@ This tool recognizes 6 options
 | Option | longer | Description |
 |---|---|---|
 | `-a` | `--add` | Add new single TODO item |
-| `-l` | `--mark` | Mark some items as done |
-| `-m` | `--list` | List all tasks |
+| `-m` | `--mark` | Mark some items as done |
+| `-l` | `--list` | List all tasks |
 | `-f` | `--file` | Path where to store todo file |
 | `-h` | `--help` | Prints help for this tool |
 | `-v` | `--version` | Prints version of this tool |
